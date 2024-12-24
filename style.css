@@ -26,13 +26,19 @@ header input {
     padding: 10px 20px;
     border-radius: 100px;
     border: none;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 header i {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 4px;
+    left: 6px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    padding: 4px 11px;
 }
 
 header .input_div:hover i {
