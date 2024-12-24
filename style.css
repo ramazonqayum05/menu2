@@ -10,3 +10,31 @@
     padding: 10px 10px 0;
     border: 1px solid black;
 }
+
+/* HEADER */
+
+header {
+    width: 100%;
+}
+
+.input_div {
+    position: relative;
+}
+
+header input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: none;
+    border: 1px solid black;
+}
+
+header i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+header .input_div:hover i {
+    display: none;
+}
