@@ -56,11 +56,12 @@ header ul {
     justify-content: space-between;
     list-style: none;
     width: 60%;
+    position: relative;
 }
 
 header ul a {
     text-decoration: none;
-    color: #605f5f;
+    color: #7e7b7b;
     font-family: "Nunito", serif;
     font-weight: 700;
 }
@@ -69,23 +70,14 @@ header ul a:hover {
     color: black;
 }
 
-#main_section {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 30px;
-}
-
-#main_section > div {
-    border: 1px solid black;
-    width: 49%;
-    height: 200px;
-}
-
-#main_section > div img {
-    width: 50%;
-}
+/* header ul a:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    width: 30px;
+    height: 4px;
+    background-color: black;
+} */
 
 @media (max-width:550px) {
     header ul {
