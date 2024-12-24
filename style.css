@@ -55,15 +55,40 @@ header ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
+    width: 60%;
 }
 
 header ul a {
     text-decoration: none;
-    color: #393939;
+    color: #605f5f;
     font-family: "Nunito", serif;
     font-weight: 700;
 }
 
 header ul a:hover {
     color: black;
+}
+
+#main_section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+#main_section > div {
+    border: 1px solid black;
+    width: 49%;
+    height: 200px;
+}
+
+#main_section > div img {
+    width: 50%;
+}
+
+@media (max-width:550px) {
+    header ul {
+        width: 100%;
+    }
 }
