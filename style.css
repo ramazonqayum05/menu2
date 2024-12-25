@@ -7,7 +7,7 @@
 }
 
 .container {
-    max-width: 408px;
+    max-width: 460px;
     margin: auto;
     padding: 10px 0;
     position: relative;
@@ -55,10 +55,16 @@ header .input_div:hover i {
 
 /* Hero2 */
 
+.ul_div {
+    width: 100%;
+    overflow-x: auto;
+}
+
 header ul {
     margin: 15px 0;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 50px;
     list-style: none;
     width: 100%;
     position: relative;
@@ -293,7 +299,7 @@ header ul a:hover {
     text-decoration: line-through;
 }
 
-@media (min-width:408px) {
+@media (min-width:460px) {
     body {
         display: none;
     }
