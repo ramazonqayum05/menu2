@@ -64,8 +64,7 @@ header .input_div:hover i {
 header ul {
     margin: 15px 0;
     display: flex;
-    /* justify-content: space-between; */
-    gap: 40px;
+    gap: 38px;
     list-style: none;
     width: 100%;
     position: relative;
@@ -142,6 +141,14 @@ header ul a:hover {
 #cart:hover {
     background-color: black;
     color: white;
+}
+
+.number {
+    width: 20%;
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    display: none;
 }
 
 /* Section2 */
