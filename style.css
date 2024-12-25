@@ -10,7 +10,7 @@
     max-width: 408px;
     margin: auto;
     padding: 10px 0;
-    /* border: 1px solid black; */
+    position: relative;
 }
 
 /* HEADER */
@@ -19,6 +19,10 @@
 header {
     width: 100%;
     padding: 10px 10px 0;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    top: 0;
 }
 
 .input_div {
@@ -75,6 +79,10 @@ header ul a:hover {
 }
 
 /* SECTION1 */
+
+#main {
+    margin-top: 100px;
+}
 
 #section1 {
     display: flex;
